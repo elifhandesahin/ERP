@@ -1,0 +1,54 @@
+﻿<Window x:Class="ERP.UI.EmployeeEntry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ERP"
+        mc:Ignorable="d" FontSize="20" FontFamily="Bahnschrift Light SemiCondensed"
+        Title="WPF Demo" Height="450" Width="685">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" FontSize="36" 
+                   Margin="0,0,0,10" Text="Personel Kayıt"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontWeight="Bold" Text="Ad" 
+                   FontFamily="Bahnschrift SemiBold SemiCondensed"/>
+        <TextBox x:Name="FirstNameText" Grid.Column="2" Grid.Row="2" Width="150"
+                 Margin="10,0,25,10" MaxLength="40" KeyDown="FirstNameText_KeyDown"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" FontWeight="Bold" Text="Soyad" 
+                   FontFamily="Bahnschrift SemiBold SemiCondensed"/>
+        <TextBox x:Name="LastNameText" Grid.Column="2" Grid.Row="3" Width="150"
+                 Margin="10,0,25,10" MaxLength="40" KeyDown="LastNameText_KeyDown"/>
+        <TextBlock Grid.Column="1" Grid.Row="4" FontWeight="Bold" Text="Kimlik Numarası" 
+                   FontFamily="Bahnschrift SemiBold SemiCondensed"/>
+        <TextBox x:Name="IdentityNumberText" Grid.Column="2" Grid.Row="4" Width="150"
+                 Margin="10,0,25,10" MaxLength="11" KeyDown="IdentityNumberText_KeyDown" />
+        <TextBlock Grid.Column="3" Grid.Row="2" FontWeight="Bold" Text="Doğum Yeri" 
+                   FontFamily="Bahnschrift SemiBold SemiCondensed"/>
+        <TextBox x:Name="BirthPlaceText" Grid.Column="4" Grid.Row="2" Width="150"
+                 Margin="10,0,25,10" MaxLength="40"/>
+        <TextBlock Grid.Column="3" Grid.Row="3" FontWeight="Bold" Text="Doğum Tarihi" 
+                   FontFamily="Bahnschrift SemiBold SemiCondensed"/>
+        <DatePicker x:Name="BirthDateText" Grid.Column="4" Grid.Row="3" Width="150"
+                    Margin="10,0,25,10" FontSize="16" KeyUp="BirthDateText_KeyUp" KeyDown="BirthDateText_KeyDown" />
+        <Button x:Name="SubmitButton" Content="Kaydet" Grid.Column="1" Grid.Row="5"
+                Margin="10" Grid.ColumnSpan="2" Click="SubmitButton_Click"/>
+    </Grid>
+</Window>
