@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\ERP.csproj": {}
+    "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\ERP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\ERP.csproj": {
+    "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\ERP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\ERP.csproj",
+        "projectUniqueName": "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\ERP.csproj",
         "projectName": "ERP",
-        "projectPath": "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\ERP.csproj",
+        "projectPath": "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\ERP.csproj",
         "packagesPath": "C:\\Users\\elfhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\obj\\",
+        "outputPath": "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elfhn\\AppData\\Roaming\\NuGet\\NuGet.Config",

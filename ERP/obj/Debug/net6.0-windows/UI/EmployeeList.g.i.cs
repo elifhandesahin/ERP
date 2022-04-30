@@ -53,7 +53,7 @@ namespace ERP.UI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ERP;component/ui/employeelist.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ERP;V1.0.0.0;component/ui/employeelist.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UI\EmployeeList.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

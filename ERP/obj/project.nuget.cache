@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "snOBRVmsfLcna/jNG7vPhWzyrMirQ8kMw7mZay6jl/DzjBzlOQgREtPo2iZhQpNXxKpST0YCiR0/M5asEnZ9Aw==",
+  "dgSpecHash": "cUmZrZ/wdSEVzgG42oPgEfcqtgup3aYIudwE86FDC7rcY3RJvGSBx6Vl2NQ++jc+N+wt5Y+PJK61J2je1lEgww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elfhn\\source\\repos\\WPFDemo\\WPFDemo\\ERP.csproj",
+  "projectFilePath": "C:\\Users\\elfhn\\source\\repos\\ERP\\ERP\\ERP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
